@@ -1,0 +1,60 @@
+.item-card {
+    background-color: wheat;
+
+    //width: 500px;
+    height: 100px;
+
+    margin: 10px;
+    padding: 10px;
+
+    border: solid;
+    border-width: 3px;
+    border-color: rgb(173, 169, 148);
+    border-radius: 7px;
+}
+
+.item-table {
+
+    border-radius: 8px;
+
+    table {
+        border-collapse: collapse;
+        background-color: antiquewhite;
+        
+        td {
+            border: 1px solid rgb(172, 133, 133);
+            margin: 0px;
+            padding: 4px;
+        }
+    }
+
+    thead {
+        color: white;
+        font-weight: bold;
+        background-color: rgb(130, 108, 84);
+    }
+
+    tbody {
+        :hover {
+            background-color: rgb(255, 252, 249);
+        }
+
+        tr {
+            :hover {
+                background-color: rgb(255, 223, 180);
+            }
+        }
+    }
+}
+
+.item-table-cell {
+    cursor: pointer;
+}
+
+.item-table-button {
+    background-color: red;
+}
+
+.item-table-cell-owned {
+    background-color: aquamarine;
+}

@@ -1,0 +1,45 @@
+
+.side-panel {
+    width: 250px;
+    max-width: 250px;
+
+    display: flex;
+    flex-flow: column;
+
+    background-color: rgb(110, 110, 170);
+}
+
+.sp-header {
+    display: flex;
+    border: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: rgb(30, 24, 51);
+}
+
+.sp-body {
+    display: flex;
+    background-color: red;
+
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+        width: 2px;
+    }
+
+    scrollbar-width: thin;
+}
+
+.sp-button {
+    display: inline;
+    
+    margin: 3px;
+    padding: 3px;
+
+    border: solid;
+    border-radius: 4px;
+    border-color: greenyellow;
+    border-width: 2px;
+
+    background-color: black;
+    color: wheat;
+}

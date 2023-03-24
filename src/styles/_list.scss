@@ -1,0 +1,24 @@
+$blue-slate: rgb(38, 47, 58);
+
+.list {
+    padding: 5px;
+    background-color: $blue-slate;
+    width: 100%;
+
+    overflow-y: auto;
+}
+
+.list-item {
+    color: wheat;
+    background-color: rgb(131, 0, 253);
+
+    border: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: black;
+
+    margin: 2px;
+    padding: 3px;
+
+    font-size: small;
+}
